@@ -56,14 +56,3 @@ The answer became the **HydroGuard Redundant Hybrid Truss**.
 ### Requirements
 - JDK 11 or higher
 
-### Compile & Run
-
-```bash
-# Compile
-javac -d out src/main/java/com/hydroguard/*.java
-
-# Run with default load (~400 N)
-java -cp out com.hydroguard.Main
-
-# Run with custom load (example: 800 N)
-java -cp out com.hydroguard.Main 800
